@@ -107,3 +107,6 @@ by Prelude.")
 ;; disable scroll-bars
 (if window-system
   (scroll-bar-mode -1))
+
+;; disable whitespace-mode
+(setq prelude-whitespace nil)
