@@ -104,5 +104,6 @@ by Prelude.")
 
 ;;; init.el ends here
 
+;; disable scroll-bars
 (if window-system
   (scroll-bar-mode -1))
